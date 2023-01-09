@@ -68,11 +68,11 @@ function rmesh(a)
     LS.C0 = CF(0,0,0)*ANGLES(RAD(0),RAD(0),RAD(0))
     
     mousechanger=game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
-        if k == 'e' then-- first mode
+        if k == 'z' then-- first mode
         Mode='happy'
         elseif k == 'q' then-- second mode
         Mode='sad'
-        elseif k == 'r' then-- first mode again
+        elseif k == 'e' then-- first mode again
         Mode='anrgy'
         end
         end)
@@ -127,7 +127,7 @@ function rmesh(a)
         --run clerp here
         end
         -------------
-        elseif Mode == 'happy' then
+        elseif Mode == 'anrgy' then
 
         if reanim.Humanoid.Jump then -- jump
 hat('Water Bottle','Torso',CFrame.new(0,0,0),CFrame.new(-1.22+0*math["cos"](sine/10),-2.29+0*math["cos"](sine/10),-0.14+0*math["cos"](sine/10))*CFrame.Angles(math.rad(82+0*math["cos"](sine/10)),math.rad(0+0*math["cos"](sine/10)),math.rad(0+0*math["cos"](sine/10))),false)
