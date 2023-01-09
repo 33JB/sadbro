@@ -72,7 +72,7 @@ function rmesh(a)
         Mode='happy'
         elseif k == 'q' then-- second mode
         Mode='sad'
-        elseif k == 'e' then-- first mode again
+        elseif k == 'r' then-- first mode again
         Mode='anrgy'
         end
         end)
